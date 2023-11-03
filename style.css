@@ -20,7 +20,7 @@ body {
   height: 60vh;
   display: grid;
   grid-template-columns: 100%;
-  grid-column: "design login";
+  grid-column: "login";
   border-radius: 20px;
   overflow: hidden;
   background: #fff;
@@ -126,7 +126,7 @@ a:hover {
 @media screen and (min-width: 768px) {
   .container {
     grid-template-columns: 50% 50%;
-    grid-template-areas: "login";
+    grid-template-areas: "design login";
   }
   .design {
     display: block;
